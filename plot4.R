@@ -19,7 +19,7 @@ dataelec$Sub_metering_3 <- as.numeric(dataelec$Sub_metering_3)
 #create the png file
 png(file = "plot4.png", width=480, height=480)
 
-#split the screen to 4 areas
+#split the screen to 4 areas  
 
 par(mfcol = c(2,2))
 
